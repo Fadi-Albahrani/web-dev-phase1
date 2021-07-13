@@ -1,6 +1,4 @@
 
-
-
 function student(id, sName, sLevel) {
     return student = {
         studentId: id,
@@ -8,10 +6,10 @@ function student(id, sName, sLevel) {
         studentLevel: sLevel
 
     }
-
-    
-
 }
 
-student(20201524, Fadi, Senior);
-console.log(student.studentId);
+student(20201524, "Fadi", "Senior");
+console.log(student);
+
+
+/*You can see the other task in task2.js*/ 
